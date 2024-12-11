@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.TimeUnit;
 
 /***
- * @Author 徐庶   
+ * @Author 徐庶   QQ:1092002729
  * @Slogan 致敬大师，致敬未来的你
  */
 @RestController
@@ -19,6 +19,5 @@ public class StockController {
         System.out.println("扣减库存");
         return "扣减库存";
     }
-
 
 }
